@@ -1,16 +1,22 @@
 NAME
+
     Alma::User.pm
 
 SYNOPSIS
+
         use Alma::UserREST;
 
         my $user = Alma::User->new( '1234567' );
 
 DESCRIPTION
+
     Get User data using the Alma User Management REST API.
 
 FUNCTIONS
-    new Retrieves information related to a given user, using the REST API.
+
+    new
+    
+    Retrieves information related to a given user, using the REST API.
 
         Input Parameters
 
@@ -108,6 +114,7 @@ FUNCTIONS
         empty string if there are no active barcodes.
 
 APPENDIX
+
     The structure returned by UserREST.pm:
 
         {
@@ -297,8 +304,10 @@ APPENDIX
         }
 
 AUTHOR
+
     Steve Thomas <stephen.thomas@adelaide.edu.au>
 
 VERSION
+
     This is version 2015.09.02
 
